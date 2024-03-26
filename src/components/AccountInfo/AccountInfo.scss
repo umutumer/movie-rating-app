@@ -1,0 +1,76 @@
+.account-info {
+    width: 500px;
+    height: 700px;
+    background-color: #151418;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    position: relative;
+
+    & img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-bottom: 50px;
+    }
+
+    .edit-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: rgb(46, 88, 255);
+        font-size: x-large;
+        cursor: pointer;
+    }
+
+    .account-image {
+        position: relative;
+    }
+
+    .img-btn {
+        position: absolute;
+        bottom: 50px;
+        right: 30px;
+        color: rgb(46, 88, 255);
+        font-size: xx-large;
+        cursor: pointer;
+    }
+
+    .account-information-edit {
+        position: absolute;
+        width: 500px;
+        height: 700px;
+        top: 0;
+        z-index: 20;
+        background-color: #151418;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+
+        & input {
+            margin: 10px 0px;
+            background-color: #1c1f25;
+            padding: 5px;
+            border-radius: 10px;
+            width: 90%;
+        }
+    }
+    #account-edit-btn{
+        background: rgb(46, 88, 255);
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 600px) {
+    .account-info {
+        width: 300px;
+        height: 500px;
+        #account-edit-btn{
+            background: rgb(46, 88, 255);
+            cursor: pointer;
+        }
+    }
+  }

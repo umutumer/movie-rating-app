@@ -1,0 +1,19 @@
+.admin-users-content{
+    margin-left: 250px;
+    min-height: 100vh;
+    & h3{
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+        padding: 40px 0;
+    }
+}
+.authority{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & .authority-text{
+        font-size: 50px;
+    }
+}

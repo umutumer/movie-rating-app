@@ -1,0 +1,28 @@
+.personal-information{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .back-to-home-btn {
+        position: absolute;
+        background: rgb(46, 88, 255);
+        width: 200px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 10px;
+        top: 20px;
+        right: 20px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .personal-information{
+        .back-to-home-btn {
+            width: 150px;
+            font-size: small;
+            padding: 5px;
+            border-radius: 10px;
+            top: 20px;
+            right: 20px;
+        }
+    }
+  }

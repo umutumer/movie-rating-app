@@ -1,0 +1,16 @@
+.admin-category{
+    min-height: 100vh;
+    .admin-category-content{
+        margin-left: 250px;
+        position: relative;
+    }
+}
+.authority{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & .authority-text{
+        font-size: 50px;
+    }
+}

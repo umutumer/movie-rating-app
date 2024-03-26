@@ -1,0 +1,19 @@
+.admin{
+    min-height: 100vh;
+    & .dashboard-content{
+        margin-left: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.authority{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & .authority-text{
+        font-size: 50px;
+    }
+}

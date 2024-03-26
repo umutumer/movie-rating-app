@@ -1,0 +1,126 @@
+.navbar{
+    background-color:  #0f1115;
+    display: flex;
+    width: 100%;
+    height: 75px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    position: fixed;
+    z-index: 40;
+    top: 0;
+    .navbar-logo{
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+    }
+    .navbar-search{
+        border: none;
+        padding: 10px;
+        width: 500px;
+        border-radius: 20px;
+        font-size:medium;
+        font-weight: 600;
+        background-color:#19181f;
+        color: #e2e2e3;
+    }
+    .navbar-search:focus{
+        border: none;
+        outline: none;
+    }
+    .user-container{
+        position: relative;
+    }
+    .user-container button{
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    .user-logo{
+        width: 50px;
+        height: 50px;
+        margin-right: 25px;
+        border-radius: 50%;
+        position: relative;
+    }
+     .navbar-user-modal{
+        position: absolute;
+        background-color: #0f1115;
+        color: #fff;
+        padding: 5px;
+        width: 100px;
+        top: 50px;
+        right:  5px;
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.856);
+        .modal-arrow{
+            position: absolute;
+            top: -15px;
+            left: 40px;
+            color: #0f1115;
+            font-size: x-large;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar{
+        width: 100%;
+        height: 120px;
+        .navbar-logo{
+            width: 100px;
+            height: 100px;
+            margin-left: 0;
+        }
+        .navbar-search{
+            border: none;
+            padding: 10px;
+            width: 200px;
+            border-radius: 20px;
+            font-size:medium;
+            font-weight: 600;
+            background-color:#19181f;
+            color: #e2e2e3;
+        }
+        .navbar-search:focus{
+            border: none;
+            outline: none;
+        }
+        .user-container{
+            position: relative;
+        }
+        .user-container button{
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        .user-logo{
+            width: 50px;
+            height: 50px;
+            margin-right: 25px;
+            border-radius: 50%;
+            position: relative;
+        }
+         .navbar-user-modal{
+            position: absolute;
+            background-color: #0f1115;
+            color: #fff;
+            padding: 5px;
+            width: 100px;
+            top: 50px;
+            right:  5px;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.856);
+            .modal-arrow{
+                position: absolute;
+                top: -15px;
+                left: 40px;
+                color: #0f1115;
+                font-size: x-large;
+            }
+        }
+    }
+   
+  }

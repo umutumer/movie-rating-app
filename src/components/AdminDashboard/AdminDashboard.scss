@@ -1,0 +1,23 @@
+.dashboard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    & .dashboard-box {
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 10px;
+        font-size: 30px;
+        border-radius: 10px;
+    }
+    & #blue-box{
+        background-color: rgb(80, 80, 255);
+    }
+    & #purple-box{
+        background-color: purple;
+    }
+}

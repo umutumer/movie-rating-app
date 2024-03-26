@@ -1,0 +1,35 @@
+.admin-movie-btn{
+    position: absolute;
+    right: 10px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    background-color: rgba(25, 70, 252, 0.644);
+    padding: 5px;
+    border-radius: 10px;
+}
+.movie-modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #00000083;
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    .modal-container{
+        width: 500px;
+        height: 500px;
+        background: rgb(0, 108, 209);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border-radius: 10px;
+    }
+}

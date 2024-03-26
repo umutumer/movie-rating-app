@@ -1,0 +1,9 @@
+.authority{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & .authority-text{
+        font-size: 50px;
+    }
+}

@@ -1,0 +1,25 @@
+.admin-sidebar{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color:  #0f1115;
+    & img{
+        width: 220px;
+        margin-left: 5px;
+    }
+    & .admin-sidebar-content{
+        & .admin-sidebar-link{
+            width: 200px;
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            margin-left: 20px;
+            font-size: larger;
+            background-color: rgba(25, 70, 252, 0.644);
+            padding: 5px;
+            border-radius: 10px;
+        }
+    }
+}

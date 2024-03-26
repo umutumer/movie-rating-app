@@ -1,0 +1,10 @@
+.admin-comments{
+    min-height: 100vh;
+    margin-left: 250px;
+    & h3{
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+        padding: 40px 0;
+    }
+}

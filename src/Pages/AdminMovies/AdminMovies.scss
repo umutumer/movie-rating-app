@@ -1,0 +1,15 @@
+.admin-movies{
+    min-height: 100vh;
+    .admin-movies-content{
+        margin-left: 250px;
+    }
+}
+.authority{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & .authority-text{
+        font-size: 50px;
+    }
+}

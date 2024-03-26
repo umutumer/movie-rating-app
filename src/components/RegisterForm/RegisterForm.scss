@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.register-form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 700px;
+    background-color:#19181f;
+    border-radius: 10px;
+    .register-form-Logo{
+        width: 250px;
+    }
+    .register-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .register-form-element{
+        margin: 10px;
+        position: relative;
+    }
+    .register-form-input{
+        width: 300px;
+        height: 50px;
+        padding: 17px;
+        background-color:#151418;
+        border: none;
+        color: #fff;
+        border-radius: 5px;
+    }
+    .register-form-input:focus{
+        border: none;
+        outline: none;
+    }
+    .register-form-icon{
+        position: absolute;
+        top: 15px;
+        right: 5px;
+        font-size: larger;
+        color:rgb(77, 77, 77) ;
+    }
+    #register-form-submit{
+       height: 30px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: rgba(25, 70, 252, 0.644);
+       cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .register-form-container{
+        width: 300px;
+        height: 650px;
+        .register-form-Logo{
+            width: 200px;
+        }
+        .register-form-element{
+            margin: 10px;
+            position: relative;
+        }
+        .register-form-input{
+            width: 250px;
+        }
+    }
+  }
