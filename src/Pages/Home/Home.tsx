@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import Movie from '../../components/Movie/Movie';
-import Navbar from '../../components/Navbar/Navbar';
 import SideBar from '../../components/SideBar/SideBar';
 import './Home.scss';
 import { Categories, Comments, Movies } from '../../Types/Types';
+import Navbar from '../../components/Navbar/Navbar';
 
 const Home = () => {
   const [movies, setMovies] = useState<Movies[]>([]);
